@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1.Top-heading {
+  /* 16px = 100% = 1em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+.Top-heading {
+  font-family: 'Amatic SC', cursive;
+  color: #66BFBF;
+}
+
+p.Top-heading{
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color:#11999E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.me {
+  width: 20%;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+a {
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 5px;
+  border-color: grey;
+}
+
+.butn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66bfbf;
+  padding: 11px 14px 11px 13px;
+  text-decoration: none;
+  border: none;
+  margin-top: 50px;
+}
+
+.butn:hover {
+  background: #11999e;
+  text-decoration: none;
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  margin-top: 50px;
+
+}
+
+.footer-link{
+  padding: 0 30px;
+  color: #11999E;
+}
+
+.copywrite{
+  margin-top: 35px;
+  color: #EAF6F6;
+  font-size: 10px;
+}
+
+footer{
+background-color: #66BFBF;
+padding-bottom: 10px;
+}
